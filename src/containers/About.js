@@ -3,7 +3,7 @@ import Hero from "../components/Hero";
 import Video from "../components/Video";
 import Skills from "../components/Skills";
 import Location from "../components/Location";
-import Footer from "../components/Footer";
+
 
 class About extends React.Component {
   render() {
@@ -12,12 +12,12 @@ class About extends React.Component {
         <Hero
           heroImage={require("../images/gt_hero_cut.png")}
           heroHeadline="Let's Build!"
-		  heroText="" //'Passionate about helping businesses achieve their goals.'
-		  // styles //
-		  heroContainer = 'hero-container'
-		  heroImageStyle = 'hero-image-format'
-		  heroTextContainer = 'hero-text'
-		  alt="Logos for PHP, React, Laravel and others positioned around the globe"
+          heroText="" //'Passionate about helping businesses achieve their goals.'
+          // styles //
+          heroContainer="hero-container"
+          heroImageStyle="hero-image-format"
+          heroTextContainer="hero-text"
+          alt="Logos for PHP, React, Laravel and others positioned around the globe"
         />
 
         <Video />

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import Footer from "../components/Footer";
 import PortfolioCard from "../components/PortfolioCard";
 import HeroBanner from "../components/HeroBanner";
 
@@ -8,12 +7,11 @@ require("../css/portfolio.css");
 class Portfolio extends Component {
   render() {
     return (
-      <div style={{ backgroundColor: "" }}>
+      <div className="pb-5" style={{ backgroundColor: "#c2c2f0" }}>
         <HeroBanner
           headline="Helping Others Turn Their Ideas Into Reality"
           subline=""
         />
-
         <div className="container">
           <div className="row pt-5">
             <div className="col-md-2" />

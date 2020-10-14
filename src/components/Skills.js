@@ -5,7 +5,7 @@ class Skills extends React.Component{
 
 	render(){
 		return(
-			<div className="row py-5">
+			<div className="row py-5 bg-light">
 				<div className="col-md-3">					
 				</div>
 				<div className="col-md-6">				

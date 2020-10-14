@@ -5,7 +5,7 @@ import Event from "./Event";
 import { UserContext } from "./UserContext";
 import Login from "./Login";
 
-function UseContextApp() {
+function UserContextApp() {
   const [user, setUser] = useState("");
   const [log, setLog] = useState(false);
   
@@ -31,7 +31,7 @@ function UseContextApp() {
       <div className="container pt-5 border border-secondary">
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
           <Link className="navbar-brand" to="/usecontext">
-            Use Context Example
+            Use Context App
           </Link>
           <button
             className="navbar-toggler"
@@ -70,7 +70,7 @@ function UseContextApp() {
         {/* A <switch> looks through its children <Route>s and
           renders the first one that matches the current URL. */}
         <UserContext.Provider value={user}>
-        <div className="container">
+        <div className="container gt-page">
 
           <Switch>
             <Route exact path="/usecontext">
@@ -93,4 +93,4 @@ function UseContextApp() {
   );
 }
 
-export default UseContextApp;
+export default UserContextApp;

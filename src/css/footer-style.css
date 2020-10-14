@@ -1,0 +1,11 @@
+.footer-text-color {
+  color: #25003a;
+}
+
+.gt-footer {
+    position: relative;        
+        
+    background-color:white;
+    color: white;
+    text-align: center;
+}

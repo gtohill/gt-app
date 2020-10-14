@@ -16,13 +16,11 @@ function Login(props) {
         <div>
           <p>
             
-            <Link className="nav-link" to="/event">
+            <Link className="nav-link" to="/usecontext/event">
                 Alright, {user}! Click here to see React Hooks useContext in action.
             </Link>
-            <Route exact path="/event">
-                <Redirect to="/event" />
-            </Route>
-          
+            <Route exact path="/usecontext/event">               
+            </Route>          
           </p>
         </div>
       </div>

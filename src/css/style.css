@@ -1,4 +1,9 @@
 /* MAIN CSS FILE */
+.gt-page{
+  position:relative;
+  min-height: 100vh;
+}
+
 /* Navbar Styles*/
 .navbar-font-style {
   font-family: "Permanent Marker", cursive;

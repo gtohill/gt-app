@@ -1,22 +1,5 @@
 import React from 'react';
 
-
-
-
-// text for h1 in hero text box 
-const hero_h1 = {
-	fontSize: '1.5em',
-	fontWeight: 'bold'
-
-};
-
-// text for p in hero text box 
-const hero_p ={
-	fontSize: '2em'
-};
-
-
-
 function Hero(props){
 	return(
 		<div className={props.heroContainer} >					

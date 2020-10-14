@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Hero from "../components/Hero";
-import Footer from "../components/Footer";
 import SubmitInput from "../components/SubmitInput";
 
 const textarea = {
@@ -66,7 +65,7 @@ class Contact extends Component {
                 <b>Reason To Contact:</b>
               </div>
               <div style={space}>
-                Looking for a high quality web developer to produce high quality
+                Looking for a high quality full stack web developer to produce high quality
                 websites.
               </div>
               <div style={space}>
