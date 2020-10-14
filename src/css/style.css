@@ -1,0 +1,212 @@
+/* MAIN CSS FILE */
+/* Navbar Styles*/
+.navbar-font-style {
+  font-family: "Permanent Marker", cursive;
+  font-size: 1.5em;
+}
+
+.gary-logo{
+  color: white;  
+  font-size: 1.75em;
+  font-family: "Permanent Marker", cursive;
+}
+
+.link-logo{
+  position: absolute;
+  text-align: center;   
+  transform: translate(50%, -50%);
+  color: white;
+  
+}
+
+.hover-link:active {
+  background-color: red;
+}
+
+.hover-link:hover {
+  background-color: grey;
+  color: red;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;  
+}
+
+.dropdown-content {
+  display: none;
+  font-family: "Permanent Marker", cursive;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.nav-drop-down{
+  display:none;
+  z-index: 99;
+}
+
+.nav-drop-down:hover{
+  display: inline;
+}
+
+/* STYLES FOR CONTACT FORM */
+.contact_wrapper {
+  background-color: grey;
+  color: white;
+  padding: 5rem 0;
+}
+
+.contact_list {
+  text-align: left;
+  font-size: 3vmin;
+}
+
+.contact_form {
+  color: #ffffff;
+  font-size: 1em;
+  padding-bottom: 1em;
+  width: 100%;
+}
+
+.text_area {
+  padding: 1em;
+  margin-bottom: 0.5em;
+  width: 100%;
+}
+
+.contact_button {
+  background-color: orange;
+  border: orange 2px solid;
+  color: white;
+  width: 50%;
+  margin: 0 25%;
+  height: 2.25em;
+  border-radius: 5px;
+}
+
+/* Hero Container Style */
+
+.hero-container {
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(75, 0, 130, 0.8),
+    rgba(75, 0, 130, 0.1)
+  );
+  opacity: 0.85;
+}
+
+/* controls size of hero image*/
+.hero-image-format {
+  width: inherit;
+}
+
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 73%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+/* hero image for contact form*/
+.hero-contact-text {
+  text-align: center;
+  position: absolute;
+  top: 73%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+/* Hero Banner Style*/
+
+.hero-banner-container {
+  position: relative;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(37, 0, 58, 1),
+    rgba(37, 0, 58, 0.6)
+  );
+  height: auto;
+  min-height: 5em;
+}
+
+.hero-banner-text {
+  position: absolute;
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+}
+
+/* Insight Card */
+
+.nuemorp-insight-card {
+  box-shadow: 5px 5px 10px #c2c2f0, -5px -5px 10px #ebebfa;
+  border-radius: 15px;
+  width: 275px;
+}
+.insight-card-title-color {
+  background-color: #a3a3c2;
+  text-align: center;
+  min-height: 4rem;
+  padding: 0.5rem 0;
+}
+.insight-card-body {
+  min-height: 5rem;
+}
+.card-center-link {
+  margin: auto;
+  width: 100%;
+  text-align: center;
+}
+
+@media only screen and (max-width: 1200px) {
+  .gary-logo{
+    color: white;  
+    font-size: 1.5em;
+    font-family: "Permanent Marker", cursive;
+  }
+  
+  .link-logo{
+    position: relative;
+    text-align: center;   
+    transform: translate(50%, 0%);
+    color: white;
+    
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .gary-logo{
+    color: white;  
+    font-size: 1.25em;
+    font-family: "Permanent Marker", cursive;
+  }
+  
+  .link-logo{
+    position: relative;
+    text-align: center;   
+    transform: translate(0%, 0%);
+    color: white;
+    
+  }
+}
+
