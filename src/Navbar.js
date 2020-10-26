@@ -9,6 +9,7 @@ import Widget from "./containers/Widget";
 import ToDoContainer from "./containers/ToDoContainer";
 import UserContextApp from "./widgets/usecontext/UserContextApp";
 import ApiApp from "./widgets/apicall/ApiApp";
+import RateShopper from "./widgets/rateshopper/RateShopper";
 
 require("./css/style.css");
 require("./css/todostyle.css");
@@ -112,6 +113,9 @@ function Navbar() {
                   <Link to="/usecontext">
                     <div>Use Context</div>
                   </Link>
+                  <Link to="/rateshopper">
+                    <div>Rate Shopper</div>
+                  </Link>
                 </div>
               </li>
             </ul>
@@ -126,6 +130,7 @@ function Navbar() {
             <Route path="/todoapp" component={ToDoContainer} />
             <Route path="/usecontext" component={UserContextApp} />
             <Route path="/apiapp" component={ApiApp} />
+            <Route path="/rateshopper" component={RateShopper} />
           </div>
         </Switch>
       </div>
