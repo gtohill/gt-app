@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import DisplayJokes from "./DisplayJokes";
+import BannerReact from "../../components/HeroBanner"
 import axios from "axios";
 
 require('./assets/css/apicallstyles.css');
@@ -21,6 +22,10 @@ function ApiApp() {
  
   return (
     <React.Fragment>
+    <BannerReact
+    headline = "API Call"
+    subline ="This App makes a GET request using axios async to fetch jokes from https://official-joke-api.appspot.com"
+    />
       <div className="flex-container">
         <div>
           <form onSubmit={handleSubmit}>

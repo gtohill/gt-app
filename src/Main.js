@@ -4,7 +4,7 @@ import Navbar from "./Navbar.js";
 import Footer from "./components/Footer";
 
 require("./css/style.css");
-require("./css/todostyle.css");
+
 
 
 class Main extends React.Component {

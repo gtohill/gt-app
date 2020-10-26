@@ -18,8 +18,9 @@ function PortfolioCard(props) {
       <a  href={props.data.url} target="_blank" rel="noopener noreferrer">
     <div
       
-      style={{ width: "250px", height:"250px", margin:'auto'}}
-      onMouseEnter={changeCursor}      
+      style={{ width: "250px", height:"300px", margin:'auto'}}
+      onMouseEnter={changeCursor}    
+      className="pt-4"  
     >
       <img
         className="card-img-top"

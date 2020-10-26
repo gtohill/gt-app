@@ -1,18 +1,18 @@
 import React from "react";
-import { BrowserRouter as Router, HashRouter, Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter as HashRouter, Route, Link, Switch } from "react-router-dom";
 
 import About from "./containers/About";
 import Portfolio from "./containers/Portfolio";
 import Contact from "./containers/Contact";
 import Insight from "./containers/Insight";
 import Widget from "./containers/Widget";
-import ToDoContainer from "./containers/ToDoContainer";
+import ToDoContainer from "./widgets/todoapp/ToDoContainer";
 import UserContextApp from "./widgets/usecontext/UserContextApp";
 import ApiApp from "./widgets/apicall/ApiApp";
 import RateShopper from "./widgets/rateshopper/RateShopper";
 
 require("./css/style.css");
-require("./css/todostyle.css");
+
 
 const nav_wrapper = {
   backgroundColor: "#25003a",
@@ -127,6 +127,7 @@ function Navbar() {
             <Route path="/portfolio" component={Portfolio} />
             <Route path="/contact" component={Contact} />
             <Route path="/insight" component={Insight} />
+            <Route path="/widget" component={Widget} />
             <Route path="/todoapp" component={ToDoContainer} />
             <Route path="/usecontext" component={UserContextApp} />
             <Route path="/apiapp" component={ApiApp} />

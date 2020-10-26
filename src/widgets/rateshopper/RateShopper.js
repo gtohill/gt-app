@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import EnterRate from "./components/EnterRate";
 import BestRate from "./components/BestRate";
 import { data } from "./data";
+import BannerReact from "../../components/HeroBanner";
 require("./css/styles.css");
 
 function RateShopper() {
@@ -63,6 +64,11 @@ function RateShopper() {
 
   
   return (
+    <React.Fragment>
+    <BannerReact 
+      headline="Rate Shopper"
+      subline="Rate Shopper app takes a input a dollar amount to invest and the term, then selects the best rate of return from the table of offers. "
+    />
     <div className="container py-5">
       <div className="row">
         <div className="col-sm-4">
@@ -103,6 +109,7 @@ function RateShopper() {
         </div>
       </div>
     </div>
+    </React.Fragment>
   );
 }
 

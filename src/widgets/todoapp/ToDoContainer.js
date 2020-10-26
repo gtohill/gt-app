@@ -1,7 +1,9 @@
 import React, { Component } from "react";
 
-import OpenToDos from "../components/OpenToDos";
-import CompletedToDos from "../components/CompletedToDos";
+import OpenToDos from "./components/OpenToDos";
+import CompletedToDos from "./components/CompletedToDos";
+import BannerReact from "../../components/HeroBanner"
+require('./assets/css/todostyle.css')
 
 export default class ToDoContainer extends Component {
   constructor(props) {
@@ -39,6 +41,10 @@ export default class ToDoContainer extends Component {
   render() {
     return (
       <React.Fragment>
+      <BannerReact 
+        headline="To Do App"
+        subline="React app that demonstrates basic CRUD functions in a To Do format"
+      />
         <div className="flex-container">
           <form onSubmit={this.handleSubmit}>
             <div className="nue-box" style={{ backgroundColor: "#5348D0" }}>

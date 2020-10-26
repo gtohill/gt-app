@@ -1,6 +1,7 @@
 import React, { useState, useContext } from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Dashboard from "./Dashboard";
+import BannerReact from '../../components/HeroBanner';
 import Event from "./Event";
 import { UserContext } from "./UserContext";
 import Login from "./Login";
@@ -27,6 +28,11 @@ function UserContextApp() {
   }
 
   return (
+    <React.Fragment>
+    <BannerReact 
+      headline="Rate Shopper"
+      subline="App that implements React Hooks useContext api to pass props to a child component deep within the component tree"
+    />
     <Router>
       <div className="container pt-5 border border-secondary">
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -90,6 +96,7 @@ function UserContextApp() {
         </UserContext.Provider>
       </div>
     </Router>
+    </React.Fragment>
   );
 }
 

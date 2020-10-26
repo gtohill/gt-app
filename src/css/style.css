@@ -147,9 +147,9 @@
     to bottom,
     rgba(37, 0, 58, 1),
     rgba(37, 0, 58, 0.6)
-  );
-  height: auto;
-  min-height: 5em;
+  );  
+  height: 12rem;
+  
 }
 
 .hero-banner-text {
