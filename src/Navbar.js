@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter as Router, HashRouter, Route, Link, Switch } from "react-router-dom";
 
 import About from "./containers/About";
 import Portfolio from "./containers/Portfolio";
@@ -45,6 +45,8 @@ function Navbar() {
   }
 
   return (
+    <HashRouter>
+    
     <Router>
       <div style={nav_wrapper}>
         <nav className="navbar navbar-expand-lg navbar bg">
@@ -135,6 +137,7 @@ function Navbar() {
         </Switch>
       </div>
     </Router>
+    </HashRouter>
   );
 }
 

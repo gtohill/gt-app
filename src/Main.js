@@ -11,6 +11,7 @@ class Main extends React.Component {
   render() {
     return (
       <React.Fragment>
+      
         <div className="gt-page">        
           <Navbar />
         </div>
