@@ -45,9 +45,7 @@ function Navbar() {
   }
 
   return (
-    <HashRouter>
-    
-    <Router>
+    <HashRouter>  
       <div style={nav_wrapper}>
         <nav className="navbar navbar-expand-lg navbar bg">
           <button
@@ -135,8 +133,7 @@ function Navbar() {
             <Route path="/rateshopper" component={RateShopper} />
           </div>
         </Switch>
-      </div>
-    </Router>
+      </div>    
     </HashRouter>
   );
 }
