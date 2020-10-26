@@ -43,7 +43,7 @@ class Portfolio extends Component {
               <PortfolioCard
                 data={{
                   company: "Cooey Outdoors",
-                  url: "https://pivotaldev.xyz",
+                  url: "https://cooeyoutdoors.com",
                   image_logo: require("../images/cooey_flower_logo.png"),
                   image_hero: require("../images/cooey_hero.png"),
                 }}
